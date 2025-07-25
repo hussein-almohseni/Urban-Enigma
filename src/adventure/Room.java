@@ -1,6 +1,5 @@
 package adventure;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 
 public class Room {
@@ -19,7 +18,6 @@ public class Room {
         return !visited;
     }
     public void updateVisited(){visited = true;}
-    public String getImagePath(){return imagePath;}
     public void setImagePath(String imagePath){this.imagePath = imagePath;}
     public String getRoomName() {
         return roomName;

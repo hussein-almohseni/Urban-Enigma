@@ -159,7 +159,7 @@ public class Game {
 
         // Add action listeners
         enterButton.addActionListener(new EnterButtonListener());
-        quitButton.addActionListener(e -> System.exit(0));
+        quitButton.addActionListener(_ -> System.exit(0));
         inputField.addKeyListener(new EnterKeyListener());
         miniGameButton.addActionListener(new statsButtonListener());
         clickerButton.addActionListener(new statsButtonListener());
